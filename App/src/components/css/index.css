@@ -1,0 +1,17 @@
+@import "./App.css";
+
+
+:root{
+--theme-color:#885725;
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .random {
+ background-color:var(--theme-color);
+}
+}
+
