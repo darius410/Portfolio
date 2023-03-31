@@ -1,15 +1,16 @@
 
+import Links from './Links'
+
 function Nav() {
 
 
     return (
       
     <>
-    <header>
-      <nav>
-        <ul>
-          <li>About</li>
-        </ul>
+    <header className="h-15">
+      <nav className="flex flew-row justify-between">
+      
+          <Links/>
       </nav>
     </header>
     </>
