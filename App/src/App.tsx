@@ -1,5 +1,6 @@
 
 import './components/css/index.css'
+import React from 'react'
 
 
 import Nav from './components/js/Nav'
