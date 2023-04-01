@@ -1,14 +1,8 @@
 
-import { useState } from "react";
-
+// import HamburgerMenu from './HamburgerMenu'
 
 
 const Links = () => {
-
-const [openMenu, setOpenMenu] = useState(true);
-
-const button = document.getElementById('menu-btn')
-const menu = document.getElementById('menu')
 
 
 
@@ -31,14 +25,9 @@ const menu = document.getElementById('menu')
       
                 </div>
 
-          
-            
-                <button id="menu-btn" onClick={() => setOpenMenu(!openMenu)}class="block hamburger md:hidden focus:outline-none">
-                    <span className="hamburger-top"></span>
-
-                    <span class="hamburger-middle"></span>
-                    <span class="hamburger-bottom"></span>
-                </button>
+{/*             
+                <HamburgerMenu />
+              */}
             </div>
      
             <div class="md:hidden">
