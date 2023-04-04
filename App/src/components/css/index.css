@@ -20,6 +20,7 @@
 
 /*------- NORMAL CSS ------*/
 
+
 /*------------NAVIGATION---------------*/
 
         /* MENU ICON */
@@ -94,6 +95,16 @@
    padding-left: 0.25rem/* 4px */;
    padding-right: 0.25rem/
 }
+
+/* FOOTER */
+.footerLinks{
+    padding-left:10px;
+    padding-right:10px;
+}
+    
+
+/*LARGE*/
+
 @media (min-width: 1024px) { 
 .portSiteDesc{
     background:#000;
@@ -109,7 +120,7 @@
   line-height: 1.3rem; /* 12px */
   margin:5px;
 }
-    
+
 }
 
 
