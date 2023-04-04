@@ -5,6 +5,8 @@
 --theme-color:#885725;
 
 }
+
+/*-----------COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS ---------*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,7 +20,8 @@
 
 
 
-                                                            /*------- NORMAL CSS ------*/
+/*------- NORMAL CSS NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  ------*/
+
 
 /*------------NAVIGATION---------------*/
 
@@ -69,6 +72,7 @@
     background-repeat:none;
 }
 
+
 /*------------PORTFOLIO---------------*/
     .portfolioOne{
         background:url("./src/img/fightcade.png");
@@ -102,7 +106,16 @@
     }
 
 
+
+
+/*---------------FOOTER----------------- */
+.footerLinks{
+    padding-left:10px;
+    padding-right:10px;
+}
+    
 /*--------------LARGE SCREENS-------------*/
+
 @media (min-width: 1024px) { 
 .portSiteDesc{
     background:#000;
@@ -118,7 +131,7 @@
   line-height: 1.3rem; /* 12px */
   margin:5px;
 }
-    
+
 }
 
 
