@@ -43,3 +43,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{
+	background:#000; /* The footer needed this in order to make both side black */
+}
