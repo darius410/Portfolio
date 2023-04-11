@@ -74,8 +74,9 @@
     background-size:contain;
 }
 .portfolioThree{
-    background:url("./src/img/proxy.jpeg");
-    background-size:contain;
+    background:url("./src/img/mobile-design.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .portfolioFour{
     background:url("./src/img/proxy.jpeg");
