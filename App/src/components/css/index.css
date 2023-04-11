@@ -71,6 +71,10 @@
     background-size:cover;
     background-repeat:none;
 }
+.socialLinks li:nth-child(1){
+background:url('./src/img/bxl-github.svg');
+background-size:contain;
+}
 
 
 /*------------PORTFOLIO---------------*/
