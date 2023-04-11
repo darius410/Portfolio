@@ -1,5 +1,17 @@
+
+
+import { AiFillTwitterCircle } from 'react-icons/ai'
+import { Icon } from '@iconify/react';
+import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
+import { MdFacebook } from 'react-icons/md'
+
 function About() {
 
+  const SocialIcon = ({icon}) => (
+    <button className="SocialIcon">
+        {icon}
+    </button>
+)
 
     return (
 
@@ -16,12 +28,12 @@ function About() {
               Ipsum mollit incididunt est ea reprehenderit adipisicing tempor occaecat officia proident do ad Lorem.Occaecat quis adipisicing ut quis.</p>
 
               
-            <ul className=" flex flex-row p-6 justify-center m-auto ">
+            <ul className=" flex flex-row p-6 justify-center m-auto  socialLinks">
               
-              <li> Twit </li>
-              <li> Twit </li>
-
-              <li>Twit </li>
+              <li></li>
+      
+                        <Icon icon={brandGithubFilled}  size="lg"/>
+                        <SocialIcon icon={<MdFacebook size='lg' />} />
               
             </ul>
           </div>
@@ -49,6 +61,8 @@ function About() {
     </div>
   </>
     )
+
+   
   }
   
   export default About
