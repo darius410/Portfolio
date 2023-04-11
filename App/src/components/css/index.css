@@ -12,11 +12,10 @@
 @tailwind utilities;
 
 @layer components{
-  .random {
- background-color:var(--theme-color);
-}
+
 
 }
+
 
 
 
@@ -67,7 +66,7 @@
 
 /*------------ABOUT ME-----------------*/
 .matrixBack{
-    background:url('./src/img/matrix.png');
+    background:url('./src/img/portfolio-background-REAL.png');
     background-size:cover;
     background-repeat:none;
 }
