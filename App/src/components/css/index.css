@@ -22,6 +22,13 @@
 /*------- NORMAL CSS NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  ------*/
 
 
+
+span {
+  background: linear-gradient(#FFF, #FFF) no-repeat;
+   background-position:top;
+   background-size:100% 75%;
+}
+
 /*------------NAVIGATION---------------*/
 
         /* MENU ICON */
@@ -67,8 +74,9 @@
 /*------------ABOUT ME-----------------*/
 .matrixBack{
     background:url('./src/img/portfolio-background-REAL.png');
-    background-size:cover;
-    background-repeat:none;
+    
+    background-position-y:40%;
+    background-repeat:no-repeat;
 }
 .socialLinks li:nth-child(1){
 background:url('./src/img/bxl-github.svg');
@@ -118,8 +126,22 @@ background-size:contain;
 }
     
 /*--------------LARGE SCREENS-------------*/
-
 @media (min-width: 1024px) { 
+    
+    /*About*/
+
+
+.matrixBack{
+    background:url('./src/img/portfolio-background-REAL.png');
+    background-size:contain;
+    background-position-y:70%;
+    background-repeat:no-repeat;
+}
+
+
+
+/*portfolio*/
+
 .portSiteDesc{
     background:#000;
     opacity:0.7;
@@ -136,5 +158,6 @@ background-size:contain;
 }
 
 }
+
 
 
