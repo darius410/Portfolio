@@ -9,15 +9,16 @@ const Links = () => {
         return (
             <>   
   
-        <nav class="relative container mx-auto p-6 ">
+        <nav className="relative container mx-auto p-6 ">
      
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between ">
+                
                 <div className="">
                   <p className="">Darius Hansley</p>
 
                 </div>
               
-                <div class="hidden md:flex space-x-6">
+                <div className="hidden md:flex space-x-6">
                     <a href="" class="hover:text-dark" >About</a>
                     <a href="" class="hover:text-darkGrayishBlue" >Blog</a>
                     <a href="" class="hover:text-darkGrayishBlue" >Portfolio</a>
