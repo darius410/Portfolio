@@ -19,11 +19,11 @@ const menu = document.getElementById('menu')
      
             <div className="flex items-center justify-between">
                 <div className="">
-                  <p className="">Darius Hansley</p>
+                  <p className="lg:text-2xl">Darius Hansley</p>
 
                 </div>
               
-                <div class="hidden md:flex space-x-6">
+                <div className="hidden lg:text-2xl md:flex space-x-6">
                     <a href="" class="hover:text-dark" >About</a>
                     <a href="" class="hover:text-darkGrayishBlue" >Blog</a>
                     <a href="" class="hover:text-darkGrayishBlue" >Portfolio</a>
