@@ -5,7 +5,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'primary':'Bebas Neue, sans-serif;',
+        'secondary': 'Teko, sans-serif;',
+       
+      },
+    },
   },
   plugins: [],
 }
