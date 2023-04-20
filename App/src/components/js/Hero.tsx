@@ -18,7 +18,7 @@ function Hero() {
         <div className="flex flex-col mb-12 lg:w-1/2">  
             <img className=" lg:w-3/5 mx-10 md:mx-32 lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
 
-            <p className="text-xl text-cyan-50 mx-16 mb-12 mt-2 md:mx-32 lg:hidden" >Blah My Objective is to make sites and applications that look amazing and perform at thier best.
+            <p className="text-xl text-cyan-50 mx-16 mb-12 mt-2 md:mx-32 lg:hidden" > blah Blah My Objective is to make sites and applications that look amazing and perform at thier best.
             </p>
             <button className="m-auto font-primary text-cyan-50 border-2 w-1/2 text-2xl lg:hidden">See My Work </button>
         </div>
