@@ -91,7 +91,7 @@ span {
 }
 .portfolioFour{
     background:url("./src/img/Blog Layout.png");
-
+}
 .socialLinks li:nth-child(1){
 background:url('./src/img/bxl-github.svg');
 background-size:contain;
