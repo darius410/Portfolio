@@ -28,6 +28,10 @@ span {
    background-position:top;
    background-size:100% 75%;
 }
+nav{
+    position:relative;
+    z-index:1;
+}
 
 /*------------NAVIGATION---------------*/
 
@@ -44,7 +48,7 @@ span {
             top:0;
             left:0;
             width: 24px;
-            height: 2px;
+            height: 4px;
             background-color: black;
             transform: rotate(0deg);
             transition: all 0.5s;
@@ -70,6 +74,25 @@ span {
         .open .hamburger-bottom{
             transform: rotate(-45deg) translateY(6px) translate(-6px);
         }
+       
+        .mobileMenu
+        {
+            display:flex;
+            
+            transform:translateY(-5%);
+            transition:transform 0.5s ease-in-out;
+            
+        }
+        .mobileMenu.isActive{
+           bottom:0;
+        }
+      
+        .hideMobileMenu{
+            
+             transform:translateY(20%);
+        }
+        
+       
 
 /*------------ABOUT ME-----------------*/
 .matrixBack{
@@ -143,71 +166,66 @@ background-size:contain;
 /*--------------LARGE SCREENS-------------*/
 @media (min-width: 1024px) { 
     
-    /*About*/
+        /*About*/
 
 
-.matrixBack{
-    background:url('./src/img/portfolio-background-REAL.png');
-    background-size:contain;
-    background-position-y:70%;
-    background-repeat:no-repeat;
-}
+    .matrixBack{
+        background:url('./src/img/portfolio-background-REAL.png');
+        background-size:contain;
+        background-position-y:70%;
+        background-repeat:no-repeat;
+    }
 
-.portSiteDesc{
-    background:#000;
-    opacity:0.8;
-    color:#fff;
-    position:relative;
-    top:240px;
-    width:100%;
-    height:40%;
-}
-.portSiteDesc p{
-   letter-spacing:0.017em;
-   padding-left: 0.25rem/* 4px */;
-   padding-right: 0.25rem;
-font-family: 'Teko', cursive;
-font-size:1.3rem;
-   
-}
-.portSiteDesc h3{
-    padding-top:10px;
-font-family: 'Bebas Neue', cursive;
-font-size:2rem;
-}
+    .portSiteDesc{
+        background:#000;
+        opacity:0.8;
+        color:#fff;
+        position:relative;
+        top:240px;
+        width:100%;
+        height:40%;
+    }
+    .portSiteDesc p{
+    letter-spacing:0.017em;
+    padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem;
+    font-family: 'Teko', cursive;
+    font-size:1.3rem;
+    
+    }
+    .portSiteDesc h3{
+        padding-top:10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2rem;
+    }
 
+    /*portfolio*/
+    .portSiteDesc{
+        background:#000;
+        opacity:0.8;
+        color:#fff;
+        position:relative;
+        top:300px;
+        width:100%;
+        height:50%;
+    }
+    .portSiteDesc p{
+    letter-spacing: 0.055em;
+    line-height: 1.3rem; /* 12px */
+    margin:5px;
 
+    padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem;
+    font-family: 'Teko', cursive;
+    font-weight:300;
+    font-size:1.5rem;
+    }
 
-@media (min-width: 1024px) { 
-
-
-/*portfolio*
-.portSiteDesc{
-    background:#000;
-    opacity:0.8;
-    color:#fff;
-    position:relative;
-    top:300px;
-    width:100%;
-    height:50%;
-}
-.portSiteDesc p{
-  letter-spacing: 0.055em;
-  line-height: 1.3rem; /* 12px */
-  margin:5px;
-
-   padding-left: 0.25rem/* 4px */;
-   padding-right: 0.25rem;
-font-family: 'Teko', cursive;
-font-weight:300;
-font-size:1.5rem;
-}
-
-.portSiteDesc h3{
-    padding-top:10px;
-font-family: 'Bebas Neue', cursive;
-font-size:2.5rem;
-}
+    .portSiteDesc h3{
+        padding-top:10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2.5rem;
+    }
 
 }
 

@@ -13,7 +13,7 @@ function Footer() {
             <li className="footerLinks">About</li>
             <li className="footerLinks">Blog</li>
             <li className="footerLinks">Portfolio</li>
-            <li className="footerLinks bg-cyan-100 text-black"><span>Find Me</span></li>
+            <li className="footerLinks  text-black"><span>Find Me</span></li>
             
         </ul>
 
