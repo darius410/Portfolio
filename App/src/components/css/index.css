@@ -5,21 +5,33 @@
 --theme-color:#885725;
 
 }
+
+/*-----------COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS ---------*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components{
-  .random {
- background-color:var(--theme-color);
+
+
 }
 
+
+
+
+/*------- NORMAL CSS NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  ------*/
+
+
+
+span {
+  background: linear-gradient(#FFF, #FFF) no-repeat;
+   background-position:top;
+   background-size:100% 75%;
 }
-
-
-
-/*------- NORMAL CSS ------*/
-
+nav{
+    position:relative;
+    z-index:1;
+}
 
 /*------------NAVIGATION---------------*/
 
@@ -36,7 +48,7 @@
             top:0;
             left:0;
             width: 24px;
-            height: 2px;
+            height: 4px;
             background-color: black;
             transform: rotate(0deg);
             transition: all 0.5s;
@@ -62,65 +74,160 @@
         .open .hamburger-bottom{
             transform: rotate(-45deg) translateY(6px) translate(-6px);
         }
+       
+        .mobileMenu
+        {
+            display:flex;
+            
+            transform:translateY(-5%);
+            transition:transform 0.5s ease-in-out;
+            
+        }
+        .mobileMenu.isActive{
+           bottom:0;
+        }
+      
+        .hideMobileMenu{
+            
+             transform:translateY(20%);
+        }
+        
+       
 
-
-/*------------PORTFOLIO---------------*/
-.portfolioOne{
-    background:url("./src/img/fightcade.png");
-    background-size:cover;
+/*------------ABOUT ME-----------------*/
+.matrixBack{
+    background:url('./src/img/portfolio-background-REAL.png');
+    
+    background-position-y:40%;
     background-repeat:no-repeat;
 }
+
 .portfolioTwo{
-    background:url("./src/img/proxy.jpeg");
+    background:url("./src/img/dogwalkersite.png");
+    background-position:20px;
     background-size:contain;
 }
 .portfolioThree{
-    background:url("./src/img/proxy.jpeg");
-    background-size:contain;
+    background:url("./src/img/mobile-design.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 .portfolioFour{
-    background:url("./src/img/proxy.jpeg");
-    background-size:contain;
+    background:url("./src/img/Blog Layout.png");
 }
-.portSiteDesc{
-    background:#000;
-    opacity:0.7;
-    color:#fff;
-    position:relative;
-    top:240px;
-    width:100%;
-    height:40%;
-}
-.portSiteDesc p{
-   padding-left: 0.25rem/* 4px */;
-   padding-right: 0.25rem/
+.socialLinks li:nth-child(1){
+background:url('./src/img/bxl-github.svg');
+background-size:contain;
 }
 
-/* FOOTER */
+
+/*------------PORTFOLIO---------------*/
+    .portfolioOne{
+        background:url("./src/img/fightcade.png");
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+    .portfolioTwo{
+        background:url("./src/img/dogwalkersite.png");
+        background-size:cover;
+
+    }
+    .portfolioThree{
+        background:url("./src/img/mobile-design.jpg");
+        background-size:cover;
+    }
+    .portfolioFour{
+        background:url("./src/img/Blog Layout.png");
+        background-size:cover;
+    }
+    .portSiteDesc{
+        background:#000;
+        opacity:0.8;
+        color:#fff;
+        position:relative;
+        top:240px;
+        width:100%;
+        height:40%;
+    }
+    .portSiteDesc p{
+    padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem/
+    }
+
+
+
+
+/*---------------FOOTER----------------- */
 .footerLinks{
     padding-left:10px;
     padding-right:10px;
 }
     
-
-/*LARGE*/
-
+/*--------------LARGE SCREENS-------------*/
 @media (min-width: 1024px) { 
-.portSiteDesc{
-    background:#000;
-    opacity:0.7;
-    color:#fff;
-    position:relative;
-    top:300px;
-    width:100%;
-    height:50%;
-}
-.portSiteDesc p{
-  letter-spacing: 0.055em;
-  line-height: 1.3rem; /* 12px */
-  margin:5px;
-}
+    
+        /*About*/
+
+
+    .matrixBack{
+        background:url('./src/img/portfolio-background-REAL.png');
+        background-size:contain;
+        background-position-y:70%;
+        background-repeat:no-repeat;
+    }
+
+    .portSiteDesc{
+        background:#000;
+        opacity:0.8;
+        color:#fff;
+        position:relative;
+        top:240px;
+        width:100%;
+        height:40%;
+    }
+    .portSiteDesc p{
+    letter-spacing:0.017em;
+    padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem;
+    font-family: 'Teko', cursive;
+    font-size:1.3rem;
+    
+    }
+    .portSiteDesc h3{
+        padding-top:10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2rem;
+    }
+
+    /*portfolio*/
+    .portSiteDesc{
+        background:#000;
+        opacity:0.8;
+        color:#fff;
+        position:relative;
+        top:300px;
+        width:100%;
+        height:50%;
+    }
+    .portSiteDesc p{
+    letter-spacing: 0.055em;
+    line-height: 1.3rem; /* 12px */
+    margin:5px;
+
+    padding-left: 0.25rem/* 4px */;
+    padding-right: 0.25rem;
+    font-family: 'Teko', cursive;
+    font-weight:300;
+    font-size:1.5rem;
+    }
+
+    .portSiteDesc h3{
+        padding-top:10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size:2.5rem;
+    }
 
 }
+
 
 
