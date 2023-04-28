@@ -7,14 +7,13 @@ function Nav() {
     return (
       
     <>
-    <header className="h-15 font-primary bg-red-600 ">
-      <nav className="flex flew-row justify-between relative z-10 ">
-      
-         
-      </nav>
- <Links/>
+    <header className="h-12 font-primary">
+     
+        <Links/>
 
     </header>
+
+    
     </>
     )
   }
