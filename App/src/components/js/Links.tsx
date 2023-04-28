@@ -68,7 +68,7 @@ const handleToggle = () => {
 
      
             <div className="z[-20] md:hidden">
-                <div id="menu" className = {`hidden -z-20 text-3xl w-full absolute flex-col items-center self-end py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center mobileMenu ${menuOpen ? "mobileMenu" : "hideMobileMenu"}`}  >
+                <div id="menu" className = {`hidden -z-20 text-3xl w-full absolute flex-col items-center self-end py-8 space-y-6 font-bold bg-white sm:self-center mobileMenu ${menuOpen ? "mobileMenu" : "hideMobileMenu"}`}  >
                     <a href="#About" >About</a>
                     <a href="#Blogs" >Blogs</a>
                     <a href="#Port" >Portfolio</a>
