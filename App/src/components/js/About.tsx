@@ -17,7 +17,7 @@ function About() {
 
      {/* CONTAINER */}
     <div className="matrixBack justify-center h-full bg-black text-white" >
-    <h2 className="text-5xl py-5 ml-2 lg:text-8xl font-primary lg:ml-20"><span className=" text-black">Who</span> Am I ?</h2>
+    <h2 className="text-5xl py-5 ml-2 lg:text-8xl font-primary lg:ml-20" id="About"><span className=" text-black">Who</span> Am I ?</h2>
       <div className="flex flex-col">
           <div className="w-4/5 justify-center m-auto  lg:w-1/2 lg:text-3xl">
           <h2 className="font-primary my-7 w-full h-full  text-3xl text-cyan-50  lg:text-6xl text-center  " >My Name is <span className="text-black h-3"> Darius Hansley</span> And I Am Here To code   </h2>
@@ -37,7 +37,7 @@ function About() {
             
           </div>
 
-            <h1 className=" ml-2 lg:text-8xl font-primary lg:ml-20 justify-center mb-4 mt-[100px] text-6xl lg:mt-[200px]">My <span className="text-black h-3">Blogs</span></h1>
+            <h1 id="Blogs" className=" ml-2 lg:text-8xl font-primary lg:ml-20 justify-center mb-4 mt-[100px] text-6xl lg:mt-[200px]">My <span className="text-black h-3">Blogs</span></h1>
             <ol className="font-secondary flex flex-col lg:flex-wrap gap-1 px-2 pb-10 lg:pb-10 justify-center m-auto border-b-2 border-solid w-4/5 lg:h-[300px] lg:gap-2 ">
               
               <li className="bg-white text-black lg:w-1/2 lg:h-20 text-3xl pl-3">Mastering Javascript Before 30<p className="text-base">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
