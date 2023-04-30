@@ -1,23 +1,33 @@
-import Links from "./Links"
+import Divider from "./Divider"
+
 
 function Footer() {
 
 
     return (
-      
-    <div className="flex flex-col justify-center m-auto text-center text-cyan-50 bg-black text-3xl border-t-2 border-white border-solid w-4/5" >
-        <h1 className="flex justify-center">Darius Hansley</h1>
 
-        <ul className="flex flex-row text-xl justify-center py-2">
+        <>
 
-            <li className="footerLinks">About</li>
-            <li className="footerLinks">Blog</li>
-            <li className="footerLinks">Portfolio</li>
-            <li className="footerLinks bg-cyan-100 text-black">Find Me</li>
+        <Divider />
+
+        <div className="flex flex-col justify-center m-auto text-center text-cyan-50 bg-black text-3xl  w-full h-[150px] lg:flex-row lg:justify-around lg:h-[100px] lg:items-center " >
+     
+                  <img src="./src/img/Untitled-2.png" className="w-3/5 self-center"/>
+
+                
+
+        <ul className="flex flex-row text-3xl justify-center py-2 font-secondary mt-3 lg:py-0 lg:h-9 lg:mt-0">
+
+            <li className="footerLinks"> ABOUT </li>
+            <li className="footerLinks"> BLOG </li>
+            <li className="footerLinks"> PORTFOLIO </li>
+            <li className="footerLinks text-black"><span> FIND ME </span></li>
             
         </ul>
 
     </div>
+
+    </>
     )
   }
   
