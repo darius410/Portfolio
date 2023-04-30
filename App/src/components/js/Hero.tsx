@@ -3,7 +3,7 @@ function Hero() {
 
     return (
       
-    <div className="flex flex-col pt-7 h-full  bg-black text-3xl lg:flex-row" >
+    <div className="flex flex-col pt-7 h-full hero-bg bg-black text-3xl lg:flex-row" >
       <div className="m-16 md:m-[100px] lg:mx-[80px] lg:mt-[10px] lg:w-1/2">
             <h2 className="font-primary w-full h-full text-4xl text-cyan-50 lg:text-4xl lg:h-min lg:mb-10" >The Two Most Important Days in Your Life: 
             The Day You Were <span className="bg-white text-black"> Born </span>

@@ -3,10 +3,11 @@ function Portfolio() {
 
     return (
       
+      
     <div className="flex flex-col h-full bg-black text-white pb-2 md:p-2" >
 
 
-            <h2 id="Port" className="ml-2 lg:text-8xl font-primary lg:ml-20 justify-center mb-4 mt-[100px] text-6xl lg:mt-[200px]"><span className="bg-white text-black">Port</span>folio</h2>
+            <h2 id="Port" className="ml-2 lg:text-8xl font-primary lg:ml-20 justify-center mb-4 mt-9 text-6xl lg:mt-[200px]"><span className="bg-white text-black">Port</span>folio</h2>
 
             <div className="">
                 <ul className="flex flex-row flex-wrap gap-2 text-center md:m-2 lg:gap-2">

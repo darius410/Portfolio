@@ -33,10 +33,10 @@ const handleToggle = () => {
   
         <nav className=" relative  mx-auto z-10">
      
-            <div className="flex items-center justify-between h-20 bg-red-600">
+            <div className="flex items-center justify-between h-20 bg-white">
                 
-                <div className="pl-12">
-                  <p className="text-2xl lg:text-3xl">Darius Hansley</p>
+                <div className="pl-9">
+                  <img src="./src/img/Untitled-1.png" className="w-3/5"/>
 
                 </div>
               
