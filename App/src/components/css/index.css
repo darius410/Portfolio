@@ -32,6 +32,16 @@ nav{
     position:relative;
   
 }
+.stroke{
+
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+}
+.sideways{
+  transform: rotate(90deg);
+  writing-mode: horizontal-tb;
+}
+
 
    .hero-bg{
         background:url("./src/img/portfolio-background-REAL.png");
