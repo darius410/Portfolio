@@ -26,6 +26,7 @@ span {
   background: linear-gradient(#FFF, #FFF) no-repeat;
    background-position:top;
    background-size:100% 75%;
+   color:#000;
 }
 .reverseSpan{
       background: linear-gradient(#000, #000) no-repeat;
