@@ -154,7 +154,7 @@ nav{
 .matrixBack{
     background:url('./src/img/portfolio-background-REAL.png');
     
-    background-position-y:40%;
+    background-position-y:10%;
     background-repeat:no-repeat;
 }
 
@@ -262,7 +262,7 @@ background-size:contain;
     .matrixBack{
         background:url('./src/img/portfolio-background-REAL.png');
         background-size:contain;
-        background-position-y:70%;
+        background-position-y:45%;
         background-repeat:no-repeat;
     }
 
