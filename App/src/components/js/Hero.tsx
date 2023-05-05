@@ -22,7 +22,7 @@ function Hero() {
 
             {/* <p className="font-primary stroke sideways text-[100px] h-[200px] w-[300px] text-black absolute" >WHO AM I
             </p> */}
-            <button id="" className="m-auto absolute font-primary sideways text-cyan-50 border-2 w-[340px] top-[420px]  left-[171px]  text-6xl lg:hidden ">"See My Work" </button>
+            <button id="" className="m-auto absolute font-primary sideways text-cyan-50 w-[340px] top-[420px]  left-[171px]  text-6xl lg:hidden ">"See My Work" </button>
         </div>
       
     </div>
