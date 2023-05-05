@@ -17,12 +17,12 @@ function Hero() {
             </button>
       </div>
         
-        <div className="flex flex-col mb-12 lg:w-1/2">  
-            <img className=" lg:w-3/5 mx-10 md:mx-32 lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
+        <div className=" bg-zinc-900 flex flex-row  mb-12  lg:w-1/2">  
+            <img className="w-3/5 h-[300px]  lg:w-3/5 md:mx-32 lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
 
-            <p className="font-primary text-center text-2xl text-cyan-50 mx-16 mb-12 mt-2 md:mx-32 lg:hidden" >My Objective is to make sites and applications that look amazing and perform at their best.
-            </p>
-            <button id="" className="m-auto font-primary text-cyan-50 border-2 w-1/2 text-2xl lg:hidden">"See My Work" </button>
+            {/* <p className="font-primary stroke sideways text-[100px] h-[200px] w-[300px] text-black absolute" >WHO AM I
+            </p> */}
+            <button id="" className="m-auto absolute font-primary sideways text-cyan-50 w-[340px] top-[420px]  left-[171px]  text-6xl lg:hidden ">"See My Work" </button>
         </div>
       
     </div>
