@@ -10,7 +10,7 @@ function SocialLinks() {
 
     return (
       
-    <div className="flex flex-col justify-center m-auto text-center text-cyan-50 text-3xl border-t-2 border-white border-solid w-4/5" >
+    <div className="flex flex-col justify-center m-auto text-center text-cyan-50 text-3xl border-t-2 w-4/5" >
        
 
         <ul className="flex flex-row text-xl justify-center py-6">

@@ -12,8 +12,7 @@
 @tailwind utilities;
 
 @layer components{
-
-
+ 
 }
 
 
@@ -27,12 +26,65 @@ span {
   background: linear-gradient(#FFF, #FFF) no-repeat;
    background-position:top;
    background-size:100% 75%;
+   color:#000;
+}
+.reverseSpan{
+      background: linear-gradient(#000, #000) no-repeat;
+   background-position:top;
+   background-size:100% 75%;
 }
 
 nav{
     position:relative;
   
 }
+.stroke{
+
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: white;
+}
+.sideways{
+  transform: rotate(90deg);
+  writing-mode: horizontal-tb;
+}
+
+
+   .hero-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:150% 50%;
+        background-repeat:no-repeat;
+        background-position:0px -150px;
+    }
+    .footer-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:150% 200%;
+        background-repeat:no-repeat;
+        background-position:0px 40px;
+    }
+    .divider{
+        color:white;
+        display:flex;
+        align-items:center;
+        
+    }
+      .divider::before,
+  .divider::after {
+    content: '';
+    display: block;
+    height: 0.09em;
+    min-width: 30vw;
+  }
+  
+  .divider::before {
+    background: linear-gradient(to right, rgba(240,240,240,0), #fff);
+    margin-right: 4vh;
+  }
+  
+  .divider::after {
+    background: linear-gradient(to left, rgba(240,240,240,0), #fff);
+    margin-left: 4vh;
+  } 
+
 
 /*------------NAVIGATION---------------*/
 
@@ -49,7 +101,7 @@ nav{
             top:0;
             left:0;
             width: 24px;
-            height: 4px;
+            height: 7px;
             background-color: black;
             transform: rotate(0deg);
             transition: all 0.5s;
@@ -102,7 +154,7 @@ nav{
 .matrixBack{
     background:url('./src/img/portfolio-background-REAL.png');
     
-    background-position-y:40%;
+    background-position-y:10%;
     background-repeat:no-repeat;
 }
 
@@ -123,6 +175,15 @@ nav{
 background:url('./src/img/bxl-github.svg');
 background-size:contain;
 }
+.blogs{
+ background:#000;
+     
+        color:#fff;
+    
+        top:240px;
+        width:100%;
+        height:40%;
+}
 
 
 /*------------PORTFOLIO---------------*/
@@ -132,7 +193,7 @@ background-size:contain;
         background-repeat:no-repeat;
     }
     .portfolioTwo{
-        background:url("./src/img/dogwalkersite.png");
+        background:url("./src/img/kittybot.png");
         background-size:cover;
 
     }
@@ -166,9 +227,34 @@ background-size:contain;
     padding-left:10px;
     padding-right:10px;
 }
+
+
+
+
+/*--------------MED SCREEN SIZES ----------*/
+
+@media (min-width:768px){
+.hero-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:100% 60%;
+        background-repeat:no-repeat;
+        background-position:0px -200px;
+    }
+    .footer-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:100% 200%;
+        background-repeat:no-repeat;
+        background-position:0px 40px;
+    }
+
+}
     
 /*--------------LARGE SCREENS-------------*/
 @media (min-width: 1024px) { 
+
+
+
+
     
         /*About*/
 
@@ -176,7 +262,7 @@ background-size:contain;
     .matrixBack{
         background:url('./src/img/portfolio-background-REAL.png');
         background-size:contain;
-        background-position-y:70%;
+        background-position-y:45%;
         background-repeat:no-repeat;
     }
 
@@ -230,6 +316,24 @@ background-size:contain;
     font-family: 'Bebas Neue', cursive;
     font-size:2.5rem;
     }
+
+
+
+    /*-----FOOTER------*/
+
+    .hero-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:150% 150%;
+        background-repeat:no-repeat;
+        background-position:0px -320px;
+    }
+    .footer-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:50% 200%;
+        background-repeat:repeat;
+        background-position:0px 0px;
+    }
+
 
 }
 
