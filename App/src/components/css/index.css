@@ -193,7 +193,7 @@ background-size:contain;
         background-repeat:no-repeat;
     }
     .portfolioTwo{
-        background:url("./src/img/dogwalkersite.png");
+        background:url("./src/img/kittybot.png");
         background-size:cover;
 
     }
@@ -331,7 +331,7 @@ background-size:contain;
         background:url("./src/img/portfolio-background-REAL.png");
         background-size:50% 200%;
         background-repeat:repeat;
-        background-position:0px 40px;
+        background-position:0px 0px;
     }
 
 
