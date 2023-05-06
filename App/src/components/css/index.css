@@ -26,6 +26,7 @@ span {
   background: linear-gradient(#FFF, #FFF) no-repeat;
    background-position:top;
    background-size:100% 75%;
+   color:#000;
 }
 .reverseSpan{
       background: linear-gradient(#000, #000) no-repeat;
@@ -153,7 +154,7 @@ nav{
 .matrixBack{
     background:url('./src/img/portfolio-background-REAL.png');
     
-    background-position-y:40%;
+    background-position-y:10%;
     background-repeat:no-repeat;
 }
 
@@ -192,7 +193,7 @@ background-size:contain;
         background-repeat:no-repeat;
     }
     .portfolioTwo{
-        background:url("./src/img/dogwalkersite.png");
+        background:url("./src/img/kittybot.png");
         background-size:cover;
 
     }
@@ -261,7 +262,7 @@ background-size:contain;
     .matrixBack{
         background:url('./src/img/portfolio-background-REAL.png');
         background-size:contain;
-        background-position-y:70%;
+        background-position-y:45%;
         background-repeat:no-repeat;
     }
 
