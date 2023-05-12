@@ -44,8 +44,12 @@ nav{
 -webkit-text-stroke-color: white;
 }
 .sideways{
+    position:relative;
+    transform-origin: top left;
+    white-space: nowrap;
   transform: rotate(90deg);
-  writing-mode: horizontal-tb;
+
+
 }
 
 
@@ -238,8 +242,18 @@ background-size:contain;
         background:url("./src/img/portfolio-background-REAL.png");
         background-size:100% 60%;
         background-repeat:no-repeat;
-        background-position:0px -200px;
+        background-position:0px -450px;
     }
+.sideways{
+    position:relative;
+
+  transform: rotate(90deg);
+  white-space:no-wrap;
+  transform-origin:top-left;
+  writing-mode: horizontal-tb;
+
+}
+
     .footer-bg{
         background:url("./src/img/portfolio-background-REAL.png");
         background-size:100% 200%;
@@ -252,7 +266,12 @@ background-size:contain;
 /*--------------LARGE SCREENS-------------*/
 @media (min-width: 1024px) { 
 
-
+.hero-bg{
+        background:url("./src/img/portfolio-background-REAL.png");
+        background-size:100% 60%;
+        background-repeat:no-repeat;
+        background-position:0px -450px;
+    }
 
 
     
@@ -323,7 +342,7 @@ background-size:contain;
 
     .hero-bg{
         background:url("./src/img/portfolio-background-REAL.png");
-        background-size:150% 150%;
+        background-size:100% 120%;
         background-repeat:no-repeat;
         background-position:0px -320px;
     }

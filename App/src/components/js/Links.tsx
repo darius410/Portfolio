@@ -36,19 +36,19 @@ const handleToggle = () => {
             <div className="flex items-center justify-between h-20 bg-white">
                 
                 <div className="pl-5">
-                  <img src="./src/img/Untitled-1.png" className="w-3/5 self-center lg:w-1/3"/>
+                  <img src="./src/img/Untitled-1.png" className="w-3/5 self-center lg:pl-16"/>
 
                 </div>
               
 
-                <div className="hidden lg:text-2xl md:flex space-x-6">
+                <div className="hidden lg:text-2xl md:flex md:w-1/2 space-x-6 lg:w-1/2">
 
-                    <div className="hidden text-black text-2xl md:flex space-x-6 pr-20">
+                    <div className="hidden items-center justify-between text-black text-2xl md:flex md:w-full md:min-w-max md:text-3xl pr-20 lg:pl-10">
 
-                        <a href="" className="hover:text-dark" >About</a>
-                        <a href="" class="hover:text-darkGrayishBlue" >Blog</a>
-                        <a href="" class="hover:text-darkGrayishBlue" >Portfolio</a>
-                        <a href="" className=" text-black bg-black" ><span> Find Me </span></a>
+                        <a href="" className="hover:text-dark md:pr-6" >About</a>
+                        <a href="" class="hover:text-darkGrayishBlue pr-6" >Blog</a>
+                        <a href="" class="hover:text-darkGrayishBlue pr-6" >Portfolio</a>
+                        <a href="" className=" text-black bg-black w-[300px];" ><span> Find Me </span></a>
         
                     </div>
 
