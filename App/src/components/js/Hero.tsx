@@ -5,7 +5,7 @@ function Hero() {
       
     <div className="flex flex-col pt-24 h-full hero-bg bg-black text-3xl lg:flex-row lg:pt-40 " >
       <div className="m-16 md:m-[100px] lg:mx-[80px] lg:mt-[10px] lg:w-1/2">
-            <h2 className="font-primary w-full h-full text-5xl text-cyan-50 lg:h-min lg:mb-10" >The Two Most Important Days in Your Life: 
+            <h2 className="font-primary w-full h-full text-5xl text-cyan-50 lg:h-min lg:mb-10" > The Two Most Important Days in Your Life: 
             The Day You Were <span className="bg-white text-black"> Born </span>
             and the Day You <span className="bg-white text-black"> Discover </span>Why
             
