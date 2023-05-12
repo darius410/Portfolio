@@ -12,14 +12,7 @@ function Hero() {
           </h2>
           
             
-          
-          
       
-      
-          {/* <button className="hidden font-primary lg:inline-block m-auto text-cyan-50 border-2 w-1/2 text-2xl ">
-            <a id="Portfolio" href=""/>"See My Work"<a/> 
-            </button>  */}
-
 
       </div>
         
