@@ -3,26 +3,33 @@ function Hero() {
 
     return (
       
-    <div className="flex flex-col pt-7 h-full hero-bg bg-black text-3xl lg:flex-row" >
+    <div className="flex flex-col pt-24 h-full hero-bg bg-black text-3xl lg:flex-row lg:pt-40 " >
       <div className="m-16 md:m-[100px] lg:mx-[80px] lg:mt-[10px] lg:w-1/2">
-            <h2 className="font-primary w-full h-full text-4xl text-cyan-50 lg:text-4xl lg:h-min lg:mb-10" >The Two Most Important Days in Your Life: 
+            <h2 className="font-primary w-full h-full text-5xl text-cyan-50 lg:h-min lg:mb-10" >The Two Most Important Days in Your Life: 
             The Day You Were <span className="bg-white text-black"> Born </span>
             and the Day You <span className="bg-white text-black"> Discover </span>Why
             
           </h2>
           
-            <p className=" font-secondary hidden text-xl text-cyan-50 lg:text-2xl lg:flex lg:mb-2">My Objective is to make sites and applications that look amazing and perform at their best. Quis aute nisi labore in elit dolor minim ut.</p>
-          <button className="hidden font-primary lg:inline-block m-auto text-cyan-50 border-2 w-1/2 text-2xl ">
+            
+          
+          
+      
+      
+          {/* <button className="hidden font-primary lg:inline-block m-auto text-cyan-50 border-2 w-1/2 text-2xl ">
             <a id="Portfolio" href=""/>"See My Work"<a/> 
-            </button>
+            </button>  */}
+
+
       </div>
         
-        <div className=" bg-zinc-900 flex flex-row  mb-12  lg:w-1/2">  
-            <img className="w-3/5 h-[300px]  lg:w-3/5 md:mx-32 lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
+        <div className=" flex flex-row justify-between mb-12 lg:pt-0 pt-20  lg:w-1/2">  
+            <img className="w-3/5 h-[300px] md:mx-32 md:w-9/12 md:h-1/3 md:ml-2 lg:w-8/12  lg:h-full lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
 
-            {/* <p className="font-primary stroke sideways text-[100px] h-[200px] w-[300px] text-black absolute" >WHO AM I
-            </p> */}
-            <button id="" className="m-auto absolute font-primary sideways text-cyan-50 w-[340px] top-[420px]  left-[171px]  text-6xl lg:hidden ">"See My Work" </button>
+      <p className="font-primary stroke sideways text-[140px] h-[100px] w-[400px] bottom-20 -right-24 md:right-12 text-black md:top-24 md:text-[150px] md:w-1/2 lg:hidden" >WHO AM I ?
+            </p>  
+          
+     
         </div>
       
     </div>
