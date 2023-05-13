@@ -14,7 +14,7 @@ function Portfolio() {
                       <li className=" bg-white w-1/2 h-[400px] portfolioOne lg:w-1/4 lg:h-[600px]" >
                         <div className="portSiteDesc">
                             <h3 className="text-4xl pb-3 font-primary">Fightcade</h3>
-                            <p className="tracking-wider font-secondary mx-7">I mimicked the layout and styling of Fightcade.A popular software that allows users to play old school fighting games with other players online. </p>
+                            <p className="tracking-wider font-secondary mx-7">I mimicked the layout and styling of Fightcade. A popular software that allows users to play old school fighting games with other players online. </p>
                         </div>
                        </li>
                        {/* image two */}
