@@ -6,14 +6,12 @@
   "scripts": {
     "dev": "vite --host",
     "predeploy": "npm run build",
-    "deploy" : "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview"
-    
   },
-  "homepage": "https://darius410.github.io/portfolio/app",
+  "homepage": "https://darius410.github.io/portfolio/app/index.html",
   "dependencies": {
-    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "reset-css": "^5.0.1"
@@ -23,6 +21,7 @@
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^11.2.2",
