@@ -33,7 +33,7 @@ function About() {
           </div>
 
           <div className="flex m-auto justify-center lg:w-4/6">
-            <img src="./img/about-meColor.png"></img>
+            <img src="img/about-meColor.png"></img>
 
             
           </div>
