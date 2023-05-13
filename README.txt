@@ -6,5 +6,5 @@ WHAT IS MY PORTFOLIO OBJECTIVE ?
 
 ### To Do List
 git branch -M master
-git remote add origin https://github.com/darius410/dariushansley.git
+git remote add origin https://github.com/darius410/Portfolio
 git push -u origin master
