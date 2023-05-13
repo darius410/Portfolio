@@ -17,7 +17,7 @@ function Hero() {
       </div>
         
         <div className=" flex flex-row justify-between mb-12 lg:pt-0 pt-20  lg:w-1/2">  
-            <img className="w-3/5 h-[300px] md:mx-32 md:w-9/12 md:h-1/3 md:ml-2 lg:w-8/12  lg:h-full lg:mr-20 lg:mt-2"  src="./src/img/Darius.jpg" />
+            <img className="w-3/5 h-[300px] md:mx-32 md:w-9/12 md:h-1/3 md:ml-2 lg:w-8/12  lg:h-full lg:mr-20 lg:mt-2"  src="img/darius.jpg" />
 
       <p className="font-primary stroke sideways text-[140px] h-[100px] w-[400px] bottom-20 -right-24 md:right-12 text-black md:top-24 md:text-[150px] md:w-1/2 lg:hidden" >WHO AM I ?
             </p>  
