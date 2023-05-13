@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d dist",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "preview": "vite preview"
+    
   },
-  "homepage": "https://darius410.github.io/",
+  "homepage": "http://darius410.github.io/Portfolio",
   "dependencies": {
     "gh-pages": "^5.0.0",
     "react": "^18.2.0",

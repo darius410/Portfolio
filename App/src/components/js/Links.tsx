@@ -46,8 +46,8 @@ const handleToggle = () => {
                     <div className="hidden items-center justify-between text-black text-2xl md:flex md:w-full md:min-w-max md:text-3xl pr-20 lg:pl-10">
 
                         <a href="" className="hover:text-dark md:pr-6" >About</a>
-                        <a href="" class="hover:text-darkGrayishBlue pr-6" >Blog</a>
-                        <a href="" class="hover:text-darkGrayishBlue pr-6" >Portfolio</a>
+                        <a href="" className="hover:text-darkGrayishBlue pr-6" >Blog</a>
+                        <a href="" className="hover:text-darkGrayishBlue pr-6" >Portfolio</a>
                         <a href="" className=" text-black bg-black w-[300px];" ><span> Find Me </span></a>
         
                     </div>

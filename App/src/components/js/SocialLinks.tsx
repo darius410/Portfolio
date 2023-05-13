@@ -27,7 +27,7 @@ function SocialLinks() {
     )
   }
     
-const SidebarIcon = ({icon}) => (
+const SidebarIcon = ({icon} : {icon:any}) => (
     <button className="">
         {icon}
         
