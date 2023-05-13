@@ -33,7 +33,7 @@ function About() {
           </div>
 
           <div className="flex m-auto justify-center lg:w-4/6">
-            <img src="./src/img/about-meColor.png"></img>
+            <img src="img/about-meColor.png"></img>
 
             
           </div>
@@ -44,7 +44,7 @@ function About() {
            
            
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./src/img/ninja.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/ninja.png"></img>
                 <div className='flex flex-col m-2'>
                   <span className="font-secondary">Coding</span>
                   <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
@@ -62,7 +62,7 @@ function About() {
               </li>
 
                  <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./src/img/tekken7 yoshi.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="img/tekken7 yoshi.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Coding</span>
                 <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
@@ -71,7 +71,7 @@ function About() {
               </li>
 
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./src/img/xbox controller.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/xbox controller.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Gaming</span>
                 <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
