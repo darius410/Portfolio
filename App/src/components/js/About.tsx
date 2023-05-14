@@ -53,7 +53,7 @@ function About() {
               </li>
 
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./src/img/master chief.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/master chief.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Lifestyle / Gaming</span>
                 <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
@@ -62,7 +62,7 @@ function About() {
               </li>
 
                  <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="img/tekken7 yoshi.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/tekken7 yoshi.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Coding</span>
                 <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
@@ -80,16 +80,7 @@ function About() {
               </li>
 
             
-                
-
-             
-              {/* <li className="blogs lg:w-1/2 lg:h-20 text-3xl pl-3"g-whi>Why Learning Code On Youtube Is Harder Then It Should Be<p className="text-xl font-secondary ">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
-              <li className="blogs lg:w-1/2 lg:h-20 text-3xl pl-3">Things I hate About Your Video Game Trailer<p className="text-xl font-secondary ">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
-              <li className="blogs lg:w-1/2 lg:h-20 text-3xl pl-3">The Future Of Video Games Are Free To Play RogueSoul Lites<p className="text-xl font-secondary ">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
-              <li className="blogs lg:w-1/2 lg:h-20 text-3xl pl-3">Should You Invest In Video game Companies?<p className="text-xl font-secondary ">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
-              <li className="blogs lg:w-1/2 lg:h-20 text-3xl pl-3">Am I Afraid Of AI Taking Jobs ?<p className="text-xl font-secondary ">Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p></li>
-            */}
-  
+ 
             </ol>
 
              
