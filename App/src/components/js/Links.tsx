@@ -36,7 +36,7 @@ const handleToggle = () => {
             <div className="flex items-center justify-between h-20 bg-white">
                 
                 <div className="pl-5">
-                  <img src="./src/img/Untitled-1.png" className="w-3/5 self-center lg:pl-16"/>
+                  <img src="./img/Untitled-1.png" className="w-3/5 self-center lg:pl-16"/>
 
                 </div>
               
