@@ -54,13 +54,13 @@ nav{
 
 
    .hero-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:150% 50%;
         background-repeat:no-repeat;
         background-position:0px -150px;
     }
     .footer-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:150% 200%;
         background-repeat:no-repeat;
         background-position:0px 40px;
@@ -156,24 +156,24 @@ nav{
 
 /*------------ABOUT ME-----------------*/
 .matrixBack{
-    background:url('./img/portfolio-background-REAL.png');
+    background:url('portfolio-background-REAL.png');
     
     background-position-y:10%;
     background-repeat:no-repeat;
 }
 
 .portfolioTwo{
-    background:url("./img/dogwalkersite.png");
+    background:url("dogwalkersite.png");
     background-position:20px;
     background-size:contain;
 }
 .portfolioThree{
-    background:url("./img/mobile-design.jpg");
+    background:url("mobile-design.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
 .portfolioFour{
-    background:url("./img/Blog Layout.png");
+    background:url("blog Layout.png");
 }
 .socialLinks li:nth-child(1){
 background:url('./img/bxl-github.svg');
@@ -192,21 +192,21 @@ background-size:contain;
 
 /*------------PORTFOLIO---------------*/
     .portfolioOne{
-        background:url("./img/fightcade.png");
+        background:url("fightcade.png");
         background-size:cover;
         background-repeat:no-repeat;
     }
     .portfolioTwo{
-        background:url("./img/kittybot.png");
+        background:url("kittybot.png");
         background-size:cover;
 
     }
     .portfolioThree{
-        background:url("./img/mobile-design.jpg");
+        background:url("mobile-design.jpg");
         background-size:cover;
     }
     .portfolioFour{
-        background:url("./img/Blog Layout.png");
+        background:url(blog Layout.png");
         background-size:cover;
     }
     .portSiteDesc{
@@ -239,7 +239,7 @@ background-size:contain;
 
 @media (min-width:768px){
 .hero-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:100% 60%;
         background-repeat:no-repeat;
         background-position:0px -450px;
@@ -255,7 +255,7 @@ background-size:contain;
 }
 
     .footer-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:100% 200%;
         background-repeat:no-repeat;
         background-position:0px 40px;
@@ -267,7 +267,7 @@ background-size:contain;
 @media (min-width: 1024px) { 
 
 .hero-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:100% 60%;
         background-repeat:no-repeat;
         background-position:0px -450px;
@@ -279,7 +279,7 @@ background-size:contain;
 
 
     .matrixBack{
-        background:url('./img/portfolio-background-REAL.png');
+        background:url('portfolio-background-REAL.png');
         background-size:contain;
         background-position-y:45%;
         background-repeat:no-repeat;
@@ -341,13 +341,13 @@ background-size:contain;
     /*-----FOOTER------*/
 
     .hero-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:100% 120%;
         background-repeat:no-repeat;
         background-position:0px -320px;
     }
     .footer-bg{
-        background:url("./img/portfolio-background-REAL.png");
+        background:url("portfolio-background-REAL.png");
         background-size:50% 200%;
         background-repeat:repeat;
         background-position:0px 0px;
