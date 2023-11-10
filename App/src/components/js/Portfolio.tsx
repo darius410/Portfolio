@@ -12,13 +12,17 @@ function Portfolio() {
             <div className="">
                 <ul className="flex flex-row flex-wrap gap-2 text-center md:m-2 lg:gap-2">
                       <li className=" bg-white w-1/2 h-[400px] portfolioOne lg:w-1/4 lg:h-[600px]" >
+                        <a href="https://darius410.github.io/FightcadeClone/">
                         <div className="portSiteDesc">
                             <h3 className="text-4xl pb-3 font-primary">Fightcade</h3>
                             <p className="tracking-wider font-secondary mx-7">I mimicked the layout and styling of Fightcade. A popular software that allows users to play old school fighting games with other players online. </p>
                         </div>
+                         </a>
                        </li>
+                      
                        {/* image two */}
                       <li className="bg-cyan-300 w-1/2 flex-1 portfolioTwo lg:w-1/4">
+
                             <div className="portSiteDesc">
                             <h3 className="text-4xl pb-3 font-primary" >Kitty Bot</h3>
                             <p className="tracking-wider font-secondary mx-7">A uniqe Twitch bot that randomly gives information on cats in the chat</p>
