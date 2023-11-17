@@ -156,24 +156,24 @@ nav{
 
 /*------------ABOUT ME-----------------*/
 .matrixBack{
-    background:url('portfolio-background-REAL.png');
+    background:url('./img/portfolio-background-REAL.png');
     
     background-position-y:10%;
     background-repeat:no-repeat;
 }
 
 .portfolioTwo{
-    background:url("dogwalkersite.png");
+    background:url("./img/dogwalkersite.png");
     background-position:20px;
     background-size:contain;
 }
 .portfolioThree{
-    background:url("mobile-design.jpg");
+    background:url("./img/mobile-design.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
 .portfolioFour{
-    background:url("BlogImage.png");
+    background:url("./img/BlogImage.png");
 }
 .socialLinks li:nth-child(1){
 background:url('./img/bxl-github.svg');

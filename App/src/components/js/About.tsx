@@ -1,9 +1,9 @@
 
 
-import { AiFillTwitterCircle } from 'react-icons/ai'
-import { Icon } from '@iconify/react';
-import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
-import { MdFacebook } from 'react-icons/md'
+//import { AiFillTwitterCircle } from 'react-icons/ai'
+//import { Icon } from '@iconify/react';
+//import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
+//import { MdFacebook } from 'react-icons/md'
 import SocialLinks from './SocialLinks';
 import Divider from './Divider';
 

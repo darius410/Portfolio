@@ -2,8 +2,8 @@
 import { AiOutlineTwitter } from 'react-icons/ai'
 import {FaGithubAlt} from 'react-icons/fa'
 import { MdLogoDev } from 'react-icons/md';
-import { Icon } from '@iconify/react';
-import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
+// import { Icon } from '@iconify/react';
+// import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
 import { FaLinkedinIn } from 'react-icons/fa'
 function SocialLinks() {
 
