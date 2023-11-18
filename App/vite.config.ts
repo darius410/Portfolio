@@ -8,7 +8,6 @@ export default defineConfig({
   
   build: {
     outDir: 'dist', // Specify the output directory for the build
-    assetsDir: 'assets', // Specify the assets directory within the output directory
     rollupOptions: {
       input: {
         main: './index.html', // Adjust the entry point as needed

@@ -2,6 +2,7 @@
   "name": "app",
   "private": false,
   "version": "0.0.0",
+  "main": "App.tsx",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
