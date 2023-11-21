@@ -1,0 +1,9 @@
+[build]
+  CI = "npm run build"
+  publish = "build"
+  base ="App"
+
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+  status = 200
