@@ -1,7 +1,7 @@
 [build]
   CI = "npm run build"
-  publish = "build"
-  base ="App"
+  publish = "dist"
+  base ="/App"
 
 [[redirects]]
   from = "/*"
