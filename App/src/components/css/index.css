@@ -154,7 +154,7 @@ nav{
         
        
 
-/*------------ABOUT ME-----------------*/
+/*------------PORTFOLIO-----------------*/
 .matrixBack{
     background:url('/img/portfolio-background-REAL.png');
     
@@ -206,7 +206,7 @@ background-size:contain;
         background-size:cover;
     }
     .portfolioFour{
-        background:url("/img/blogLayout.png");
+        background:url("/img/BlogImage.png");
         background-size:cover;
     }
     .portSiteDesc{
