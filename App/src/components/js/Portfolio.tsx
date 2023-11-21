@@ -43,7 +43,7 @@ function Portfolio() {
                     <li className="bg-red-600 w-1/2 flex-1 portfolioFour lg:w-1/4">
                     <div className="portSiteDesc">
                             <h3 className="text-4xl pb-3 font-primary">DeepSix Blocker</h3>
-                            <p className="tracking-wider font-secondary px-7">A site for a fake VPN company that I designed based on keyword research</p>
+                            <p className="tracking-wider font-secondary px-7">My own personal blog site made using Astro.Please visit if you like opinions on gaming as well as coding</p>
                         </div>
                     </li>
                     

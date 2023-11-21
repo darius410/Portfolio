@@ -44,7 +44,7 @@ function About() {
            
            
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/ninja.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/BlogImage.png"></img>
                 <div className='flex flex-col m-2'>
                   <span className="font-secondary">Coding</span>
                   <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
@@ -53,11 +53,11 @@ function About() {
               </li>
 
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/master chief.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/youtubecomputer.png"></img>
                 <div className='flex flex-col m-2'>
-                <span className="font-secondary">Lifestyle / Gaming</span>
-                <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
-                  <p className="text-1xl font-secondary lg:text-xl ">Ut tempor nostrud incididunt qui aliquip fugiat dolor cupidatat aliqua consequat.Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p>
+                <span className="font-secondary">Coding</span>
+                <h2 className='text-5xl lg:text-3xl '>The downsides of Youtube studying</h2>
+                  <p className="text-1xl font-secondary lg:text-xl ">Youtube can be a great source for learning how to code for free,but what if it also the worst way to learn?</p>
                 </div>
               </li>
 
@@ -65,17 +65,17 @@ function About() {
                 <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/tekken7 yoshi.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Coding</span>
-                <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
-                  <p className="text-1xl font-secondary lg:text-xl ">Ut tempor nostrud incididunt qui aliquip fugiat dolor cupidatat aliqua consequat.Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p>
+                <h2 className='text-5xl lg:text-3xl '>Does Front End Development Exist Anymore?</h2>
+                  <p className="text-1xl font-secondary lg:text-xl ">In my opinion front end is started to become just a buzz word for newer devs.</p>
                 </div>
               </li>
 
               <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/xbox controller.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/marioandcharacters.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Gaming</span>
-                <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
-                  <p className="text-1xl font-secondary lg:text-xl ">Ut tempor nostrud incididunt qui aliquip fugiat dolor cupidatat aliqua consequat.Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p>
+                <h2 className='text-5xl lg:text-3xl '>Are Video Game Movies Finally Good?</h2>
+                  <p className="text-1xl font-secondary lg:text-xl ">With the recent success of the super mario movie,does this mean that we are finally able to get video game movies that fulffull the viewers and fans of the franchise its based upon ?</p>
                 </div>
               </li>
 
