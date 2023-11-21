@@ -62,7 +62,7 @@ function About() {
               </li>
 
                  <li className="blogs flex flex-wrap md:flex-nowrap text-white md:mx-3 lg:m-0 lg:w-1/2 lg:h-full text-3xl ">
-                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/tekken7 yoshi.png"></img>
+                <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/startup.jpg"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Coding</span>
                 <h2 className='text-5xl lg:text-3xl '>Does Front End Development Exist Anymore?</h2>
