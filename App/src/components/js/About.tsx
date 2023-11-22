@@ -32,11 +32,11 @@ function About() {
 
           </div>
 
-          <div className="flex m-auto justify-center lg:w-4/6">
+          {/* <div className="flex m-auto justify-center lg:w-4/6">
             <img src="./img/about-meColor.png"></img>
 
             
-          </div>
+          </div> */}
 
             <h1 id="Blogs" className=" ml-2 lg:text-9xl font-primary  justify-center mb-4 mt-[100px] text-8xl lg:mt-[200px]">My <span className="text-black h-3">Blogs</span></h1>
             <ol className="font-primary gap-y-2 flex max-w-max flex-wrap  mb-[100px] lg:pb-10 w-full">
@@ -47,8 +47,8 @@ function About() {
                 <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/30birthday.png"></img>
                 <div className='flex flex-col m-2'>
                   <span className="font-secondary">Coding</span>
-                  <h2 className='text-5xl lg:text-3xl '>Mastering Javascript Before 30</h2>
-                  <p className="text-1xl font-secondary lg:text-xl ">Ut tempor nostrud incididunt qui aliquip fugiat dolor cupidatat aliqua consequat.Esse aute nostrud nulla ea.Duis pariatur et eiusmod sint voluptate consectetur magna fugiat nostrud mollit culpa dolore nostrud cupidatat.</p>
+                  <h2 className='text-5xl lg:text-3xl '><a href="https://chaosandvideogames.com/blogs/blog-1/">Mastering Javascript Before 30</a></h2>
+                  <p className="text-1xl font-secondary lg:text-xl ">To master Javascript before the age of thirty is a pretty easy, yet unrealistic goal to set for.</p>
                 </div>
               </li>
 
@@ -65,7 +65,7 @@ function About() {
                 <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/startup.jpg"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Coding</span>
-                <h2 className='text-5xl lg:text-3xl '>Does Front End Development Exist Anymore?</h2>
+                <h2 className='text-5xl lg:text-3xl '><a href="https://chaosandvideogames.com/blogs/blog-13/">Does Front End Development Exist Anymore?</a> </h2>
                   <p className="text-1xl font-secondary lg:text-xl ">In my opinion front end is started to become just a buzz word for newer devs.</p>
                 </div>
               </li>
@@ -74,7 +74,7 @@ function About() {
                 <img className="lg:w-1/2 md:max-h-72 lg:max-h-max" src="./img/marioandcharacters.png"></img>
                 <div className='flex flex-col m-2'>
                 <span className="font-secondary">Gaming</span>
-                <h2 className='text-5xl lg:text-3xl '>Are Video Game Movies Finally Good?</h2>
+                <h2 className='text-5xl lg:text-3xl '><a href='https://chaosandvideogames.com/blogs/blog-6/' >Are Video Game Movies Finally Good?</a></h2>
                   <p className="text-1xl font-secondary lg:text-xl ">With the recent success of the super mario movie,does this mean that we are finally able to get video game movies that fulffull the viewers and fans of the franchise its based upon ?</p>
                 </div>
               </li>
