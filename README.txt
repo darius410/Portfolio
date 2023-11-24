@@ -5,6 +5,6 @@ WHAT IS MY PORTFOLIO OBJECTIVE ?
 
 
 ### To Do List
-Fix Navigation on mobile size
-Resize porfolio block to match section indentation
-Fix the black overlay at the botom of portfolio prjects on Lg Screens
+git branch -M master
+git remote add origin https://github.com/darius410/Portfolio
+git push -u origin master
