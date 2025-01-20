@@ -10,9 +10,9 @@ function Footer() {
 
         
 
-        <div className="flex flex-col lg:flex-col justify-between items-center footer-bg pt-12 text-center text-black text-3xl  w-full h-[200px]  lg:px-20 lg:justify-between lg:h-[200px] lg:items-center" >
+        <div className="flex flex-col lg:flex-col justify-between items-center footer-bg pt-36 text-center text-black text-3xl   w-full h-[200px]  lg:px-20 lg:justify-between lg:h-[300px] lg:items-center" >
      
-                  <img src="./img/Untitled-2.png" className="w-7/12  relative top-[50px] self-center md:w-1/2 lg:w-3/6"/>
+                  {/* <img src="./img/Untitled-2.png" className="w-7/12  relative top-[50px] self-center md:w-1/2 lg:w-3/6"/> */}
 
                 
 
@@ -24,7 +24,7 @@ function Footer() {
             <li className="footerLinks text-white"><span className="reverseSpan"> FIND ME </span></li>
             
         </ul> */}
-    <div className="w-screen font-secondary bg-white text-black text-xl" >Copyright 2023 - Darius Hansley</div>
+    <div className="w-screen font-secondary items-center mt-auto pt-2 bg-white text-black text-xl" >Copyright 2025 - Darius Hansley</div>
 
     </div>
 
