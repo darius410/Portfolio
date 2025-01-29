@@ -42,7 +42,7 @@ function Portfolio() {
 
 
                     <li className="bg-red-600 w-1/2 flex-1 portfolioFour lg:w-1/4">
-                    <a href="https://fightcade.netlify.app/">
+                    <a href="https://chaosandvideogames.com/">
                     <div className="portSiteDesc">
                       
                             <h3 className="text-4xl pb-3 font-primary">ASTRO BLOG</h3>
