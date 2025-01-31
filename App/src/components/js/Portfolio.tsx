@@ -18,10 +18,10 @@ function Portfolio() {
                             <p className="tracking-wider font-secondary mx-7">I mimicked the layout and styling of Fightcade. A popular software that allows users to play old school fighting games with other players online. </p>
                             <div className="flex justify-center">
                               <a href="https://fightcade.netlify.app/">
-                                <img src="/src/img/www-click.png"></img>
+                                <img src="./img/www-click.png"></img>
                               </a>
                               <a href="https://github.com/darius410/FightcadeClone">
-                                <img src="/src/img/github.png"></img>
+                                <img src="./img/github.png"></img>
                               </a>
                             </div>
                         </div>
@@ -36,10 +36,10 @@ function Portfolio() {
                             <p className="tracking-wider font-secondary mx-7">A uniqe Twitch bot that randomly gives information on cats in the chat</p>
                               <div className="flex justify-center mt-10">
                               <a href="https://www.twitch.tv/popout/kittyfactzplz/chat?popout=">
-                                <img src="/src/img/www-click.png"></img>
+                                <img src="./img/www-click.png"></img>
                               </a>
                               <a href="https://github.com/darius410/KittyFactz">
-                                <img src="/src/img/github.png"></img>
+                                <img src="./img/github.png"></img>
                               </a>
                             </div>
                         </div>
@@ -54,10 +54,10 @@ function Portfolio() {
                             <p className="tracking-wider font-secondary mx-7">My attempt at a front end mentor challenge using tailwind and react JS</p>
                             <div className="flex justify-center mt-10">
                               <a href="https://anotherfrontendchallenge.netlify.app/">
-                                <img src="/src/img/www-click.png"></img>
+                                <img src="./img/www-click.png"></img>
                               </a>
                               <a href="https://github.com/darius410/Front-End-Mentor-Challenge-Tailwind">
-                                <img src="/src/img/github.png"></img>
+                                <img src="./img/github.png"></img>
                               </a>
                             </div>
                         </div>
@@ -73,10 +73,10 @@ function Portfolio() {
                             <p className="tracking-wider font-secondary px-7">My own personal blog site made using Astro.Please visit if you like opinions on gaming as well as coding</p>
                               <div className="flex justify-center mt-5">
                               <a href="https://chaosandvideogames.com/">
-                                <img src="/src/img/www-click.png"></img>
+                                <img src="./img/www-click.png"></img>
                               </a>
                               <a href="https://github.com/darius410/Chaosandvideogames">
-                                <img src="/src/img/github.png"></img>
+                                <img src="./img/github.png"></img>
                               </a>
                             </div>
                         </div>
