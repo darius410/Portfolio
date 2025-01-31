@@ -17,36 +17,33 @@ function About() {
 
 
      {/* CONTAINER */}
-    <div className="matrixBack justify-center  h-full bg-black text-white" >
-    <h2 className="text-5xl py-5 ml-2 lg:text-8xl font-primary lg:ml-20" id="About"><span className=" text-black">Who</span> Am I ?</h2>
+    <div className="justify-center mt-10 h-full bg-black text-white" >
+    {/* <h2 className="text-5xl py-5 ml-2 lg:text-8xl font-primary lg:ml-20" id="About"><span className=" text-black">Who</span> Am I ?</h2> */}
       <div className="flex flex-col ">
           <div className="w-4/5 justify-center m-auto  lg:w-1/2 lg:text-3xl">
-          <h2 className="font-primary my-7 w-full h-full  text-3xl text-cyan-50  lg:text-6xl text-center  " >My Name is <span className="text-black h-3"> Darius Hansley</span> And I Am Here To code   </h2>
-            <p className="text-3xl text-center mb-6 leading-6 font-secondary font-light tracking-wider ">I'm a front end developer in the state of Maryland that has done allot of work in debugging CSS issues and fixing JavaScript errors.
+          <h2 className="font-primary my-7 w-full h-full  text-3xl text-cyan-50  lg:text-6xl text-center  " >My Name is <span className="text-black h-3"> Darius Hansley</span> And I'm web development   </h2>
+            <p className="text-3xl text-center mb-8 leading-8 font-secondary font-light tracking-wider ">I'm a front end developer in the state of Maryland that has done allot of work in debugging CSS issues and fixing JavaScript errors.
                  I enjoy making websites that look great and have great accessibility for the people that use them. My goal in the next five to ten years is to become more familiar with other languages as well as do work on the backend of technology stacks
                   to better help other development teams.
                   </p>
 
 
-                  <h2 className='text-3xl mb-6 leading-6 font-primary font-light tracking-wider text-black h-3'><span>What Am  currently I doing?</span></h2> 
+                  <h2 className='text-3xl text-center mb-6 leading-6 font-primary font-light tracking-wider text-black h-3'><span>What Am  currently I doing?</span></h2> 
                
                 
-                  <ul className='text-2xl mb-6 leading-6 font-secondary font-light tracking-wider '>
+                  <ul className='text-2xl mb-10 leading-8 font-secondary font-light tracking-widest text-center list-disc list-inside'>
                     <li> Im currently spending my time doing coding competitions via Hacker rank.</li>
                     <li>Learning the Golang Programming language.</li>
                     <li>Updating websites to have better accessibility</li>
 
                   </ul>
-              
-                    <p className="text-3xl text-center mb-6 leading-6 font-secondary font-light tracking-wider ">
-                  Currently I do my work as a freelancer but I am willing to grow inside of a company as a team member.
-                  As always...press F12 for nerd mode
-                  </p>
-
+                  
+                
+                 
          
-                  <Divider />
+                 
               
-           <SocialLinks />
+      
 
           </div>
 
@@ -59,8 +56,8 @@ function About() {
             
           </div>
 
-            <h1 id="Blogs" className=" ml-2 lg:text-9xl font-primary  justify-center mb-4 mt-[100px] text-8xl lg:mt-[200px]">My <span className="text-black h-3">Blogs</span></h1>
-            <ol className="font-primary gap-y-2 flex max-w-max flex-wrap  mb-[100px] lg:pb-10 w-full">
+            {/* <h1 id="Blogs" className=" ml-2 lg:text-9xl font-primary  justify-center mb-4 mt-[100px] text-8xl lg:mt-[200px]">My <span className="text-black h-3">Blogs</span></h1> */}
+            {/* <ol className="font-primary gap-y-2 flex max-w-max flex-wrap  mb-[100px] lg:pb-10 w-full">
               
            
            
@@ -102,7 +99,7 @@ function About() {
 
             
  
-            </ol>
+            </ol> */}
 
              
         
@@ -110,6 +107,16 @@ function About() {
     </div>
 
     <Divider />
+
+    <p className="text-3xl text-white text-center mt-10 leading-8 font-secondary font-light tracking-wider ">
+                  If you wish to find me or examine my work you can click any of the links below.
+                  As always...press F12 for nerd mode
+                  </p>
+
+         
+                 
+              
+           <SocialLinks />
   </>
     )
 
