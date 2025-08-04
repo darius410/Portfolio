@@ -2,15 +2,22 @@
 
 
 :root{
---theme-color:#885725;
+
 
 }
+
+
 
 /*-----------COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS COMPONENTS ---------*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --color-platinum-100: #E0E1DD;
+  --color-oxfordBlue: #1B263B;
+  --color-gunMetal: #222B34;
+}
 @layer components{
  
 }
@@ -18,18 +25,30 @@
 
 
 
+
 /*------- NORMAL CSS NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  NORMAL CSS  ------*/
 
+.cornersBottom {
+  --s: 60px; /* size of the corners */
+  border: 6px solid #e0e1dd; 
+  padding: 10px;
 
+  background: #f2f2f2 content-box;
+  mask: 
+    conic-gradient(#000 0 0) content-box,
+    conic-gradient(at var(--s) var(--s),#0000 75%,#000 0) 
+    0 0/calc(100% - var(--s)) calc(100% - var(--s));
+}
 
 span {
-  background: linear-gradient(#FFF, #FFF) no-repeat;
+  background: linear-gradient(#e0e1dd, #e0e1dd) no-repeat;
    background-position:top;
    background-size:100% 75%;
    color:#000;
 }
+
 .reverseSpan{
-      background: linear-gradient(#000, #000) no-repeat;
+      background: linear-gradient(#222B34, #222B34) no-repeat;
    background-position:top;
    background-size:100% 75%;
 }

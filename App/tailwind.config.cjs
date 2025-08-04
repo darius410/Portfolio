@@ -8,13 +8,20 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        'primary':'Bebas Neue, sans-serif;',
-        'secondary': 'Teko, sans-serif;',
-        'third' : 'Varela Round, sans-serif;',
-       
+      fontFamily: {
+        primary: "Bebas Neue, sans-serif;",
+        secondary: "Teko, sans-serif;",
+        third: "Varela Round, sans-serif;",
+      },
+      colors: {
+        platinum: {
+          100: "#E0E1DD",
+        },
+        oxfordBlue: "#1B263B",
+        gunMetal: "#222B34",
+        blueGrey: "#6B94C4",
       },
     },
   },
   plugins: [],
-}
+};
