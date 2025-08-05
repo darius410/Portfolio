@@ -4,7 +4,7 @@ function Portfolio() {
     return (
       
       
-    <div className="flex flex-col h-full bg-black text-white pb-2 md:p-2" >
+    <div id="Portfolio" className="flex flex-col h-full bg-black text-white pb-2 md:p-2" >
 
 
             <h2 id="Port" className="ml-2 lg:text-8xl font-primary justify-center mb-4 mt-9 text-6xl lg:mt-[200px]"><span className="bg-white text-black">Port</span>folio</h2>
@@ -33,7 +33,7 @@ function Portfolio() {
 
                             <div className="portSiteDesc">
                             <h3 className="text-4xl pb-3 font-primary" >Kitty Bot</h3>
-                            <p className="tracking-wider font-secondary mx-7">A uniqe Twitch bot that randomly gives information on cats in the chat</p>
+                            <p className="tracking-wider font-secondary mx-7">A unique Twitch bot that gives facts about cats in the chat room.</p>
                               <div className="flex justify-center mt-10">
                               <a href="https://www.twitch.tv/popout/kittyfactzplz/chat?popout=">
                                 <img src="./img/www-click.png"></img>
