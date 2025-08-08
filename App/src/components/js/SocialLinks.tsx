@@ -3,7 +3,7 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 import { FaBluesky } from "react-icons/fa6";
 import {FaGithubAlt} from 'react-icons/fa'
 import { MdLogoDev } from 'react-icons/md';
-import { Icon } from '@iconify/react';
+
 // import brandGithubFilled from '@iconify/icons-tabler/brand-github-filled';
 import { FaLinkedinIn } from 'react-icons/fa'
 function SocialLinks() {
