@@ -6,7 +6,7 @@
 //import { MdFacebook } from 'react-icons/md'
 import { motion } from "framer-motion";
 import SocialLinks from './SocialLinks';
-import Divider from './Divider';
+
 
 function About() {
 
@@ -25,7 +25,7 @@ function About() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 1, ease: "easeOut" }}
               
-              alt="Profile"
+              
             >
               Welcome To My Site !!
             </motion.h2>
@@ -68,7 +68,7 @@ function About() {
                 <span className="text-gunMetal h-3"> About Me</span>
               </h3>
 
-              <SocialLinks className="" />
+              <SocialLinks />
 
               <ul className="text-3xl w-3/4 mb-8 leading-8 font-secondary font-light tracking-wider">
                 <li className="mb-4">

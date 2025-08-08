@@ -22,7 +22,7 @@
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
+    "@types/react": "^19.1.9",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^3.1.0",
     "autoprefixer": "^10.4.14",
@@ -31,7 +31,7 @@
     "postcss-import": "^15.1.0",
     "postcss-nesting": "^11.2.2",
     "tailwindcss": "^3.2.7",
-    "typescript": "^4.9.3",
+    "typescript": "^5.9.2",
     "vite": "^4.2.0"
   }
 }
