@@ -1,4 +1,4 @@
-import Divider from "./Divider"
+
 
 
 function Footer() {
