@@ -32,8 +32,8 @@ function About() {
           </h2>
           <div className="flex flex-col">
             {/* Top Container  */}
-            <div className="flex bg-platinum-100 h-dvh">
-              <div className="w-4/5 py-20 ml-24 lg:w-1/2 lg:text-3xl">
+            <div className="flex-col bg-platinum-100 h-dvh">
+              <div className="w-4/5 py-20 m-8 lg:w-1/2 lg:text-3xl">
                 <h3 className="font-primary w-3/4 text-3xl text-gunMetal  lg:text-6xl  ">
                   My Name is{" "}
                   <span className="reverseSpan text-platinum-100">
@@ -42,7 +42,7 @@ function About() {
                   </span>{" "}
                   And I'm a web developer{" "}
                 </h3>
-                <p className="text-3xl w-3/4 text-gunMetal mb-8 leading-8 font-secondary font-light tracking-wider">
+                <p className="text-3xl sm:w-3/4 text-gunMetal mb-8 leading-8 font-secondary font-light tracking-wider">
                   I'm a front end developer in the state of Maryland that has
                   done allot of work in debugging CSS issues and fixing
                   JavaScript errors. I enjoy making websites that look great and
