@@ -56,7 +56,7 @@ function About() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2, ease: "easeOut" }}
-                  className="w-1/3 relative top-36 cornersBottom"
+                  className="relative cornersBottom"
                   alt="Profile"
                 />
               </div>
