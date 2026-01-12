@@ -27,13 +27,13 @@ function About() {
               
               
             >
-              Welcome To My Site !!
+              Welcome To My Portfolio 
             </motion.h2>
           </h2>
           <div className="flex flex-col">
             {/* Top Container  */}
             <div className="flex-col bg-platinum-100 h-dvh">
-              <div className="w-4/5 py-20 m-8 lg:w-1/2 lg:text-3xl">
+              <div className="w-4/5 m-8 lg:w-1/2 lg:text-3xl">
                 <h3 className="font-primary w-3/4 text-3xl text-gunMetal  lg:text-6xl  ">
                   My Name is{" "}
                   <span className="reverseSpan text-platinum-100">
@@ -56,7 +56,7 @@ function About() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2, ease: "easeOut" }}
-                  className="w-1/3 absolute top-36 cornersBottom"
+                  className="w-1/3 relative top-36 cornersBottom"
                   alt="Profile"
                 />
               </div>
