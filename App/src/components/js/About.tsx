@@ -17,7 +17,7 @@ function About() {
         {/* CONTAINER */}
         <div className="justify-center mt-10 h-full text-platinum-100">
           <h2
-            className="text-5xl py-5 ml-2 lg:text-8xl font-primary lg:ml-20"
+            className="text-5xl py-5 m-2 lg:text-8xl font-primary lg:ml-20"
             id="About"
           >
             <motion.h2
@@ -56,7 +56,7 @@ function About() {
                   initial={{ opacity: 0, y: 40 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 2, ease: "easeOut" }}
-                  className="relative cornersBottom"
+                  className="relative w-3/4 cornersBottom"
                   alt="Profile"
                 />
               </div>
