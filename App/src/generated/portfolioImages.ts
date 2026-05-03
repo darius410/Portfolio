@@ -1,0 +1,42 @@
+export const portfolioImageManifest = {
+  "fightcade": {
+    alt: "Fightcade clone project preview",
+    width: 779,
+    height: 1875,
+    placeholder: "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACwBQCdASoYADoAPtVYoEyoJSMiMA35ABqJZQDFyCyRyHnjHAtDWiyjuNbwwTe6bg+R2LmZxAAA/u9f6yqd/FTf6E20K01TQeAq0n+GqMRDYLBnuj4WcM3pydojtkfQqD2FbkuE7HYc6Qu07MmfjnYYeSV5Th8366bk76gWdLS3K72H7D8XhjqZr3uLuWTo6IeqHR/1B6IAAA==",
+    fallbackSrc: "/img/generated/fightcade-779.png",
+    fallbackSrcSet: "/img/generated/fightcade-480.png 480w, /img/generated/fightcade-768.png 768w, /img/generated/fightcade-779.png 779w",
+    webpSrcSet: "/img/generated/fightcade-480.webp 480w, /img/generated/fightcade-768.webp 768w, /img/generated/fightcade-779.webp 779w",
+    avifSrcSet: "/img/generated/fightcade-480.avif 480w, /img/generated/fightcade-768.avif 768w, /img/generated/fightcade-779.avif 779w",
+  },
+  "kittybot": {
+    alt: "Kitty Bot project preview",
+    width: 1024,
+    height: 1024,
+    placeholder: "data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAACQBQCdASoYABgAPt1irU8opaSiKAqpEBuJagCdMuIpPYAAa+ChfX15etxCHh1F/i4bEJquAADNv/8AHCvmXDAvFx9thvbh0C4USOTCBEP8M2UI4Ol/YXxOpakONckGwJncIfIALpfThoDjyJv3OX98PZP9ECIQF4ok3sPw6KkizNuRUT9+mx1fxzquF6ycxdmA6x8AiJaNSw27jNdcZkw0AAA=",
+    fallbackSrc: "/img/generated/kittybot-1024.png",
+    fallbackSrcSet: "/img/generated/kittybot-480.png 480w, /img/generated/kittybot-768.png 768w, /img/generated/kittybot-1024.png 1024w",
+    webpSrcSet: "/img/generated/kittybot-480.webp 480w, /img/generated/kittybot-768.webp 768w, /img/generated/kittybot-1024.webp 1024w",
+    avifSrcSet: "/img/generated/kittybot-480.avif 480w, /img/generated/kittybot-768.avif 768w, /img/generated/kittybot-1024.avif 1024w",
+  },
+  "mobile-design": {
+    alt: "Front-End Mentor challenge project preview",
+    width: 375,
+    height: 3226,
+    placeholder: "data:image/webp;base64,UklGRtIBAABXRUJQVlA4IMYBAABQEQCdASoYANIAPtVapUyoJaOiMTiM6QAaiUAZw7G//+OkAvgYK3r5liY+vvYYynr8vqx7zKjaHzMHx1aLeyRhA7X35P6bEb/st3ZEVAkktFxgTxdaaBl3mIU9ejdkGAZlY74m7o0e5Mr/Nc1WKPXBAhGUNaNqU2AevwP0hW2j5tpzoeRqpCjRJ9RP0II8otM9zGAA/vgQGW6beXj098G1UmmWoa8xXtKQ10N3jexem3vInS4KtD5E2wbseY+/ZZOgUF7JyVydADeO5R58OzjgqOo4HiTegNkdA75XsKCIsfdzJvu25i9nj0OTzNSYl2nu1UvnFhA6agNxD/abdrerLpDlNxNQE+P18ggEuwY9hMbHIk6kkKEiMnAfhntrUV6cVH9Wz2EZPi6Ydoegyw0x9xSL2aFM1xAlPSwrbdUifsNShHEyVbCPCkulS6dhz0NSAPN7x9ibGorlurnkc4o6Y3+R0jKfvxfsGbdyk8U1wB7FLk75zwraOszIstPdPErwj1gixfks1vMvX9dIY6n8B1TOlPDa/jiOrWgBtKijc3HcPIs8J/G0qreyPmI6LLqnkR/32WlSrxSgSFnmd2efoTrRWYAA",
+    fallbackSrc: "/img/generated/mobile-design-375.jpg",
+    fallbackSrcSet: "/img/generated/mobile-design-375.jpg 375w",
+    webpSrcSet: "/img/generated/mobile-design-375.webp 375w",
+    avifSrcSet: "/img/generated/mobile-design-375.avif 375w",
+  },
+  "blog-image": {
+    alt: "Astro blog project preview",
+    width: 1919,
+    height: 5315,
+    placeholder: "data:image/webp;base64,UklGRoIAAABXRUJQVlA4IHYAAABwBgCdASoYAEIAPt1gpU8opSMiKbqskRAbiWcA0ugNaficNWcX+xBrPwXguyqv9Pwj/LCHWD4XtsoephAA/uT+Zo56OekYYAyXMh0qypAJX5rk5vLQLa2g0yRubaiW/qURlJ53rwdrYu62AqZm583bpQ9w9AAA",
+    fallbackSrc: "/img/generated/blog-image-1200.png",
+    fallbackSrcSet: "/img/generated/blog-image-480.png 480w, /img/generated/blog-image-768.png 768w, /img/generated/blog-image-1200.png 1200w",
+    webpSrcSet: "/img/generated/blog-image-480.webp 480w, /img/generated/blog-image-768.webp 768w, /img/generated/blog-image-1200.webp 1200w",
+    avifSrcSet: "/img/generated/blog-image-480.avif 480w, /img/generated/blog-image-768.avif 768w, /img/generated/blog-image-1200.avif 1200w",
+  }
+} as const;
