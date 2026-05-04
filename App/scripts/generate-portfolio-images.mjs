@@ -25,7 +25,7 @@ const aboutWidths = [320, 480, 640];
 const portfolioImages = [
   {
     key: "fightcade",
-    source: "fightcade.png",
+    source: "Fightcade.png",
     alt: "Fightcade clone project preview",
   },
   {
