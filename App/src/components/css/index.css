@@ -100,13 +100,22 @@ img {
 
 .about-photo-shell {
   width: min(100%, 20rem);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 
+.about-photo-shell picture {
+  display: block;
+  width: 100%;
+}
+
 .about-photo {
+  margin-inline: auto;
   width: 100%;
   position: static;
 }
