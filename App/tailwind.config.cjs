@@ -9,9 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: "Bebas Neue, sans-serif;",
-        secondary: "Teko, sans-serif;",
-        third: "Varela Round, sans-serif;",
+        primary: ["Bebas Neue", "sans-serif"],
+        secondary: ["Teko", "sans-serif"],
       },
       colors: {
         platinum: {
