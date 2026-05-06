@@ -1,33 +1,37 @@
 function Hero() {
+  return (
+    <section className="hero-print-shell" aria-labelledby="hero-heading">
+      <div className="section-shell hero-print-grid">
+        <div className="hero-print-copy">
+          <p className="hero-kicker">
+            Frontend Developer • Maryland • UI Systems
+          </p>
+          <h1 id="hero-heading" className="hero-title font-primary">
+            Creating
+            <br />
+            Accessible,
+            <br />
+            Polished Web
+            <br />
+            Experiences.
+          </h1>
+          <p className="hero-summary font-secondary">
+            I build portfolio sites and interfaces with a strong visual point of
+            view, cleaner structure, and practical accessibility.
+          </p>
+        </div>
 
+        <div className="hero-print-panel" aria-hidden="true">
+          <p className="hero-panel-label font-secondary">Darius Hansley</p>
+          <div className="hero-panel-rule"></div>
+          <p className="hero-panel-text font-primary">FRONT</p>
+          <p className="hero-panel-text hero-panel-text--outline font-primary">
+            END
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-    return (
-      
-    <div className="flex flex-col pt-24 h-full hero-bg bg-black text-3xl lg:flex-row lg:pt-40 " >
-      {/* <div className="m-16 md:m-[100px] lg:mx-[80px] lg:mt-[10px] lg:w-1/2">
-            <h2 className="font-primary w-full h-full text-5xl text-cyan-50 lg:h-min lg:mb-10" > The Two Most Important Days in Your Life: 
-            The Day You Were <span className="bg-white text-black"> Born </span>
-            and the Day You <span className="bg-white text-black"> Discover </span>Why
-            
-          </h2>
-          
-            
-      
-
-      </div> */}
-{/*         
-        <div className=" flex flex-row justify-between mb-12 lg:pt-0 pt-20  lg:w-1/2">  
-            <img className="w-3/5 h-[300px] md:mx-32 md:w-9/12 md:h-1/3 md:ml-2 lg:w-8/12  lg:h-full lg:mr-20 lg:mt-2"  src="img/Darius.jpg" />
-
-      <p className="font-primary stroke sideways text-[140px] h-[100px] w-[400px] bottom-20 -right-24 md:right-12 text-black md:top-24 md:text-[150px] md:w-1/2 lg:hidden" >WHO AM I ?
-            </p>  
-          
-     
-        </div> */}
-      
-    </div>
-    )
-  }
-  
-  export default Hero
-  
+export default Hero;
