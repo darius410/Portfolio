@@ -5,7 +5,7 @@ import { MdLogoDev } from "react-icons/md";
 
 function SocialLinks() {
   return (
-    <div className="flex flex-col justify-center text-center text-platinum-100 text-3xl border-t-2 w-4/5">
+    <div className="about-section-rule flex flex-col justify-center text-platinum-100 text-3xl">
       <ul
         className="social-links-list text-xl py-3"
         aria-label="Social media links"
@@ -14,28 +14,28 @@ function SocialLinks() {
           <SidebarLink
             href="https://bsky.app/profile/imjustchaos.bsky.social"
             label="Bluesky profile"
-            icon={<FaBluesky size={55} aria-hidden="true" />}
+            icon={<FaBluesky size={38} aria-hidden="true" />}
           />
         </li>
         <li>
           <SidebarLink
             href="https://github.com/darius410"
             label="GitHub profile"
-            icon={<FaGithubAlt size={60} aria-hidden="true" />}
+            icon={<FaGithubAlt size={42} aria-hidden="true" />}
           />
         </li>
         <li>
           <SidebarLink
             href="https://dev.to/darius410"
             label="DEV profile"
-            icon={<MdLogoDev size={60} aria-hidden="true" />}
+            icon={<MdLogoDev size={40} aria-hidden="true" />}
           />
         </li>
         <li>
           <SidebarLink
             href="https://www.linkedin.com/in/darius-hansley-96b752147/"
             label="LinkedIn profile"
-            icon={<FaLinkedinIn size={60} aria-hidden="true" />}
+            icon={<FaLinkedinIn size={40} aria-hidden="true" />}
           />
         </li>
       </ul>

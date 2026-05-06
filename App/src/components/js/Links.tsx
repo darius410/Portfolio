@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const navLinks = [
   { href: "#About", label: "About" },
-  { href: "https://chaosandvideogames.com", label: "Blog" },
+  { href: "#Blog", label: "Blog" },
   { href: "#Portfolio", label: "Portfolio" },
   {
     href: "https://www.linkedin.com/in/darius-hansley-96b752147",
@@ -41,51 +41,56 @@ const Links = () => {
 
   return (
     <>
-      <nav className="relative mx-auto z-10" aria-label="Primary navigation">
-        <div className="flex items-center justify-between h-20 bg-platinum-100">
-          <div className="pl-5">
-            <a href="#About" aria-label="Go to About section">
-              <img
-                src="./img/logo.png"
-                className="w-48 h-1/4 self-center lg:pl-16"
-                alt="Darius Hansley logo"
-              />
-            </a>
-          </div>
-
-          <div className="hidden lg:text-2xl md:flex space-x-6">
-            <div className="hidden items-center justify-between text-gunMetal text-3xl md:flex md:w-full md:min-w-max md:text-4xl pr-40 lg:pl-10">
-              {navLinks.map((link) => (
-                <a
-                  key={link.label}
-                  href={link.href}
-                  className={`rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal ${
-                    link.label === "Find Me"
-                      ? "text-platinum-100 bg-gunMetal px-4 py-2"
-                      : "hover:text-darkGrayishBlue pr-6"
-                  }`}
-                >
-                  {link.label}
-                </a>
-              ))}
+      <nav
+        className="site-nav relative mx-auto z-10"
+        aria-label="Primary navigation"
+      >
+        <div className="site-nav__bar h-20 bg-platinum-100">
+          <div className="section-shell flex h-full items-center justify-between">
+            <div>
+              <a
+                href="#About"
+                aria-label="Go to About section"
+                className="font-primary text-gunMetal text-2xl uppercase tracking-[0.08em] lg:text-4xl"
+              >
+                Darius Hansley
+              </a>
             </div>
-          </div>
 
-          <button
-            id="menu-btn"
-            type="button"
-            onClick={handleToggle}
-            aria-expanded={menuOpen}
-            aria-controls="menu"
-            aria-label={
-              menuOpen ? "Close navigation menu" : "Open navigation menu"
-            }
-            className={`block mr-12 hamburger md:hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal ${menuOpen ? "open" : ""}`}
-          >
-            <span className="hamburger-top"></span>
-            <span className="hamburger-middle"></span>
-            <span className="hamburger-bottom"></span>
-          </button>
+            <div className="hidden md:ml-auto md:flex">
+              <div className="hidden items-center gap-6 text-gunMetal text-3xl md:flex md:min-w-max md:text-4xl">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className={`site-nav__link rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal ${
+                      link.label === "Find Me"
+                        ? "site-nav__link--cta px-4 py-2"
+                        : "pr-6"
+                    }`}
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <button
+              id="menu-btn"
+              type="button"
+              onClick={handleToggle}
+              aria-expanded={menuOpen}
+              aria-controls="menu"
+              aria-label={
+                menuOpen ? "Close navigation menu" : "Open navigation menu"
+              }
+              className={`block hamburger md:hidden focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal ${menuOpen ? "open" : ""}`}
+            >
+              <span className="hamburger-top"></span>
+              <span className="hamburger-middle"></span>
+              <span className="hamburger-bottom"></span>
+            </button>
+          </div>
         </div>
 
         <div className="z[-20] md:hidden">
@@ -101,7 +106,9 @@ const Links = () => {
                 key={link.label}
                 href={link.href}
                 onClick={closeMenu}
-                className="rounded-sm px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal"
+                className={`site-nav__mobile-link rounded-sm px-3 py-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gunMetal ${
+                  link.label === "Find Me" ? "site-nav__mobile-link--cta" : ""
+                }`}
               >
                 {link.label}
               </a>

@@ -1,4 +1,5 @@
 import { portfolioImageManifest } from "../../generated/portfolioImages";
+import useInViewOnce from "./useInViewOnce";
 
 const portfolioProjects = [
   {
@@ -45,6 +46,8 @@ const portfolioProjects = [
 ] as const;
 
 function Portfolio() {
+  const { elementRef, isInView } = useInViewOnce<HTMLHeadingElement>();
+
   return (
     <section
       id="Portfolio"
@@ -52,10 +55,14 @@ function Portfolio() {
       className="flex flex-col h-full bg-black text-white pb-6 md:p-4"
     >
       <h2
+        ref={elementRef}
         id="portfolio-heading"
         className="section-shell lg:text-8xl font-primary justify-center mb-4 mt-9 text-6xl lg:mt-[200px]"
       >
-        <span className="text-highlight">Port</span>folio
+        <span className={`portfolio-word-mark ${isInView ? "is-visible" : ""}`}>
+          <span className="portfolio-word-mark__text">Port</span>
+        </span>
+        folio
       </h2>
 
       <div className="section-shell">
