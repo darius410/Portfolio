@@ -29,9 +29,9 @@ const portfolioImages = [
     alt: "Fightcade clone project preview",
   },
   {
-    key: "kittybot",
-    source: "kittybot.png",
-    alt: "Kitty Bot project preview",
+    key: "deepsixvpn",
+    source: "deepsixvpn.png",
+    alt: "DeepSix VPN landing page preview",
   },
   {
     key: "mobile-design",
