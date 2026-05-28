@@ -13,14 +13,12 @@ const portfolioProjects = [
     repoLabel: "Open the Fightcade GitHub repository",
   },
   {
-    imageKey: "kittybot",
-    title: "Kitty Bot",
+    imageKey: "deepsixvpn",
+    title: "DeepSix VPN",
     description:
-      "A unique Twitch bot that gives facts about cats in the chat room.",
-    liveHref: "https://www.twitch.tv/popout/kittyfactzplz/chat?popout=",
-    liveLabel: "Open the live Kitty Bot project",
-    repoHref: "https://github.com/darius410/KittyFactz",
-    repoLabel: "Open the Kitty Bot GitHub repository",
+      "A cinematic landing page for a fictional VPN brand with layered scenery, bold typography, and conversion-focused marketing sections.",
+    liveHref: "https://deepsixvpn.netlify.app/",
+    liveLabel: "Open the live DeepSix VPN project",
   },
   {
     imageKey: "mobile-design",
@@ -113,13 +111,15 @@ function Portfolio() {
                       alt={`Live site icon for ${project.title}`}
                     />
                   </a>
-                  <a href={project.repoHref} aria-label={project.repoLabel}>
-                    <img
-                      className="portfolio-link-icon"
-                      src="./img/github.png"
-                      alt={`GitHub icon for ${project.title} repository`}
-                    />
-                  </a>
+                  {"repoHref" in project && project.repoHref && project.repoLabel ? (
+                    <a href={project.repoHref} aria-label={project.repoLabel}>
+                      <img
+                        className="portfolio-link-icon"
+                        src="./img/github.png"
+                        alt={`GitHub icon for ${project.title} repository`}
+                      />
+                    </a>
+                  ) : null}
                 </div>
               </div>
             </li>
